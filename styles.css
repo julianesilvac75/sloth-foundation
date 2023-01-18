@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(./Fonts/Roboto/Roboto-Regular.ttf) format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(./Fonts/Roboto/Roboto-Bold.ttf) format('truetype');
+    font-weight: bold;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.hero { /*hero and footer */
+    background-color: #1F2937;
+    width: 100vw;
+}
+
+.header {
+    display: flex;
+    padding-top: 20px;
+    width: 75%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-family: 'Roboto-Bold', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.hero-link a {
+    padding: 20px;
+    text-decoration: none;
+}
+
+.hero-header {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-family: 'Roboto-Bold', sans-serif;
+    font-weight: bold;
+    padding-top: 100px;
+}
+
+.hero-text-info {
+    padding-right: 50px;
+}
+
+.hero-link a, .secondary-hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-weight: normal;
+}
+
+.signup-btn {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    width: 125px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Roboto-Bold', sans-serif;
+    font-weight: bold;
+}
+
+.hero-image {
+    width: 450px;
+    height: 250px;
+}
