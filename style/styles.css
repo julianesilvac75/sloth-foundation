@@ -30,7 +30,8 @@
     padding-bottom: 80px;
 }
 
-.hero, .footer-container { /*hero and footer */
+
+.hero, .footer-container { 
     background-color: var(--dark-blue);
     width: 100vw;
 }
@@ -55,6 +56,10 @@
 .hero-link a {
     padding: 20px;
     text-decoration: none;
+}
+
+.hero-link a:hover {
+    text-decoration: underline;
 }
 
 .hero-header {
@@ -89,6 +94,10 @@
     border: none;
     font-family: 'Roboto-Bold', sans-serif;
     font-weight: bold;
+}
+
+.signup-btn:hover, .action-btn:hover {
+    cursor: pointer;
 }
 
 .hero-image {
