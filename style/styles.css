@@ -133,7 +133,7 @@
 
 .info-img {
     width: 100%;
-    height: 100%;
+    height: auto;
     border: 3px solid var(--light-blue);
     border-radius: 8px;
 }
