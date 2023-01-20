@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./donation-form.css">
+    <title>Donation form</title>
+</head>
+<body>
+    <header class="header">
+        <a class="header-logo" href="">Header Logo</a>
+        <nav class="header-nav">
+            <span class="hero-link"><a href="">header link 1</a></span>
+            <span class="hero-link"><a href="">header link 2</a></span>
+            <span class="hero-link"><a href="">header link 3</a></span>
+        </nav>
+    </header>
+    <main>
+        <p class="donation-text">
+            Wow! You're really doing this?
+        </p>
+        <form>
+            <img
+                src="https://ouch-cdn2.icons8.com/FPlCyrLXqZ4zabufcICJFwIqyPqEhHtY2g6hkzA3qlI/rs:fit:256:153/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9zdmcvNDQy/LzFkMjEzMDMwLTll/NDctNGZiMi05M2Y3/LWVmM2JkZDA1YjE5/ZC5zdmc.png"
+                alt="sloth"
+            >
+            <p>Choose your donation</p>
+            <div class="payment-type-container">
+                <div>
+                    <input type="radio" name="payment-type" id="one-time">
+                    <label for="one-time">ONE TIME</label>
+                </div>
+                <div>
+                    <input type="radio" name="payment-type" id="monthly">
+                    <label for="monthly">MONTHLY</label>
+                </div>
+            </div>
+            <div class="payment-amount-container">
+                <div>
+                    <input type="radio" name="payment-amount" id="50-dollars">
+                    <label for="50-dollars"><span>$</span>50</label>
+                </div>
+                <div>
+                    <input type="radio" name="payment-amount" id="100-dollars">
+                    <label for="100-dollars"><span>$</span>100</label>
+                </div>
+                <div>
+                    <input type="radio" name="payment-amount" id="250-dollars">
+                    <label for="250-dollars"><span>$</span>250</label>
+                </div>
+                <div>
+                    <input type="radio" name="payment-amount" id="500-dollars">
+                    <label for="500-dollars"><span>$</span>500</label>
+                </div>
+                <div>
+                    <input type="radio" name="payment-amount" id="1000-dollars">
+                    <label for="1000-dollars"><span>$</span>1000</label>
+                </div>
+                <div>
+                    <input type="radio" name="payment-amount" id="2500-dollars">
+                    <label for="2500-dollars"><span>$</span>2500</label>
+                </div>
+                <div id="user-amount">
+                    <label for="user-amount">$</label>
+                    <input placeholder="Insert another amount" type="number" name="payment-amount" id="user-amount-input">
+                </div>
+            </div>
+            <div class="credit-card-info-container">
+                <p><span>***</span> Credit Card</p>
+                <input id="card-number" placeholder="Credit Card Number" type="number">
+                <input id="exp-date" placeholder="Exp Date" type="number">
+                <input id="cvv" placeholder="CVV" type="number">
+                <input id="zip" placeholder="Billing Zip" type="number">
+            </div>
+            <button class="signup-btn">
+                <a href="">Donate</a>
+            </button>
+        </form>
+    </main>
+</body>
+</html>
