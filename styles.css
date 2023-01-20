@@ -49,6 +49,10 @@
     text-decoration: none;
 }
 
+.hero-link a:hover {
+    text-decoration: underline;
+}
+
 .hero-header {
     display: flex;
     width: 75%;
@@ -81,6 +85,10 @@
     border: none;
     font-family: 'Roboto-Bold', sans-serif;
     font-weight: bold;
+}
+
+.signup-btn:hover, .action-btn:hover {
+    cursor: pointer;
 }
 
 .hero-image {
