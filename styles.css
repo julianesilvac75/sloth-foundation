@@ -22,7 +22,7 @@
     padding-bottom: 80px;
 }
 
-.hero, .footer-container { /*hero and footer */
+.hero, .footer-container { 
     background-color: #1F2937;
     width: 100vw;
 }
