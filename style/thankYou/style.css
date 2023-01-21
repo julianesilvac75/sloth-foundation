@@ -61,12 +61,13 @@ body main figure > img{
 }
 body main figure > figcaption{
     color: #f9faf8;
+    overflow-wrap: break-word;
 }
 body main figure > figcaption.headerText{ 
     font-size: 48px;
     font-weight: bold;
 }
-body main figure > figcaption.subtext{
+body main figure > figcaption.subText{
     font-size: 18px;
 }
 body main section{
@@ -82,23 +83,110 @@ body main section{
     padding: 1rem 0;
 }
 body main section p{
+    font-size: 18px;
     color: #1f2937;
 }
-body main section div{
+body main section div.links{
     margin: 0.5rem 0;
 }
-body main section div > a{
+body main section div.links > a{
     display: inline-block;
     color: #e5e7eb;
     text-decoration: none;
     font-size: 24px;
     text-align: center;
     line-height: 2;
+    margin-right: 0.5rem;
     width: 12rem;
     height: 3rem;
     background-color: #3882f6;
     border-radius: 0.3rem;
 }
-body main section div > a:hover{
+body main section div.links > a.facebook{
+    background-color: 	#4267B2;
+}
+body main section div.links > a.instagram{
+    background-color: 	#5B51D8;
+}
+body main section div.links > a.pinterest{
+    background-color: 	#E60023;
+}
+body main section div.links > a.facebook:hover{
     background-color: #1c4586;
+}
+body main section div.links > a.instagram:hover{
+    background-color: 	#443ea3;
+}
+body main section div.links > a.pinterest:hover{
+    background-color: 	#b6011c;
+}
+
+@media only screen and (max-width: 600px){
+    /*body header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 75%;
+        height: 4rem;
+    }
+    body header a, 
+    body header nav a{
+        text-decoration: none;
+        color: #e5e7eb;
+        font-size: 18px;
+    }
+    body header nav a{
+        margin-right: 1.5rem;
+    }*/
+    body main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 0.5rem;
+    }
+    body main figure{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 350px;
+    }
+    body main figure > img{
+        width: inherit;
+        height: 250px;
+        object-fit: contain;
+        margin-bottom: 0.5rem;
+    }
+    body main figure > figcaption{
+        text-align: center;
+        color: #f9faf8;
+    }
+    body main figure > figcaption.headerText{ 
+        font-size: 48px;
+        font-weight: bold;
+        line-height: 1;
+    }
+    body main figure > figcaption.subText{
+        font-size: 18px;
+        margin-top: 1rem;
+    }
+    body main section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #6d747d;
+        width: inherit;
+        height: 200px;
+        border-radius: 0.3rem;
+        margin-top: 2rem;
+        padding: 1rem 0;
+    }
+    body main section p{
+        font-size: 18px;
+        color: #1f2937;
+    }
+    body main section div.links{
+        margin: 0.5rem 0;
+        display: flex;
+        flex-direction: column;
+    }
 }
