@@ -5,12 +5,12 @@
 }
 @font-face {
     font-family: 'Roboto-Bold';
-    src: url(./Fonts/Roboto/Roboto-Bold.ttf) format('truetype');
+    src: url(../Fonts/Roboto/Roboto-Bold.ttf) format('truetype');
     font-weight: bold;
 }
 @font-face {
     font-family: 'Roboto-LightItalic';
-    src: url(./Fonts/Roboto/Roboto-LightItalic.ttf) format('truetype');
+    src: url(../Fonts/Roboto/Roboto-LightItalic.ttf) format('truetype');
     font-weight: lighter;
 }
 
@@ -133,7 +133,7 @@
 
 .info-img {
     width: 100%;
-    height: auto;
+    height: 100%;
     border: 3px solid var(--light-blue);
     border-radius: 8px;
 }
