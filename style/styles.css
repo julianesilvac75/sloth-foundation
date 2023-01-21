@@ -97,6 +97,8 @@
 }
 
 .signup-btn:hover, .action-btn:hover {
+    background-color: var(--dark-blue);
+    border: 2px solid var(--light-blue);
     cursor: pointer;
 }
 
