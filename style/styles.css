@@ -26,6 +26,10 @@
     margin: 0;
 }
 
+body {
+    min-width: 279px;
+}
+
 .hero {
     padding-bottom: 80px;
 }
@@ -229,6 +233,16 @@
 a {
     text-decoration: none;
     color: currentColor;
+}
+
+@media screen and (max-width: 360px) {
+    .hero-text-info h1 {
+        font-size: 40px;
+    }
+
+    .hero-text-info p {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 1050px) {
