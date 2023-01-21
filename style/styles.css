@@ -138,12 +138,7 @@
     height: 100%;
     border: 3px solid var(--light-blue);
     border-radius: 8px;
-}
 
-.image-container > figcaption {
-    text-align: center;
-    font-family: 'Roboto-Regular', sans-serif;
-    font-weight: normal;
     color:var(--dark-blue);
     font-size: 18px;
 }
@@ -234,4 +229,17 @@
 a {
     text-decoration: none;
     color: currentColor;
+}
+
+@media screen and (max-width: 1050px) {
+    .hero-header {
+        flex-wrap: wrap;
+        padding-top: 50px;
+    }
+
+    .hero-image {
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+    }
 }
