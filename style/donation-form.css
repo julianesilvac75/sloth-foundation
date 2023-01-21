@@ -6,19 +6,25 @@ main {
     align-items: center;
     margin-top: 2rem;
 }
+
 .header {
+    /* display: flex; */
     background-color: var(--dark-blue);
     width: 100%;
     padding-left: 12.5%;
     padding-right: 12.5%;
     padding-bottom: 16px;
 }
+
+.header-nav {
+    display: initial;
+}
+
 .donation-text {
     text-align: center;
     color: var(--dark-blue);
     font-family: 'Roboto-Regular', sans-serif;
     font-size: 20px;
-    /* margin: 10px 0 0 10px; */
     white-space: nowrap;
     overflow: hidden;
     width: 14em;
