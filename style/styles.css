@@ -129,17 +129,20 @@ body {
 
 .main-image-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.image-container {
-    width: 200px;
+/* .image-container {
+    /* width: 200px;
     height: 200px;
-}
+    padding: 30px;
+    padding-bottom: 30px;
+} */
 
 .info-img {
-    width: 100%;
-    height: 100%;
+    width: 200px;
+    height: 200px;
     border: 3px solid var(--light-blue);
     border-radius: 8px;
 
@@ -255,5 +258,15 @@ a {
         margin-top: 20px;
         width: 100%;
         height: auto;
+    }
+
+    .image-container {
+        flex-basis: 50%;
+        margin-bottom: 30px;
+        padding-right: 15px;
+    }
+    .info-img {
+        width: 200px;
+        height: 200px;
     }
 }
