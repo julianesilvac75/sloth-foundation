@@ -81,6 +81,11 @@ form > p {
     border-radius: 4px;
     font-size: 12px;
 }
+
+.payment-type-container label:hover {
+    cursor: pointer;
+}
+
 .payment-type-container input {
     display: none;
 }
@@ -88,6 +93,7 @@ form > p {
     background-color: var(--light-blue);
     color: var(--white);
 }
+
 .payment-amount-container {
     display: grid;
     grid-template-areas:
@@ -111,9 +117,19 @@ form > p {
 .payment-amount-container input {
     display: none;
 }
+
+.payment-amount-container div:hover {
+    cursor: pointer;
+}
+
 .payment-amount-container label {
     font-size: 14px;
 }
+
+.payment-amount-container label:hover, .payment-amount-container div:hover  {
+    cursor: pointer;
+}
+
 #user-amount {
     grid-area: g;
     width: 100%;
