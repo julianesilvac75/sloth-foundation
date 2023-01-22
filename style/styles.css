@@ -152,15 +152,9 @@ body {
     /* height: 200px; */
     /* padding-bottom: 30px; */
 }  
-
 .info-img {
     width: 200px;
     height: 200px;
-}
-
-.info-img {
-    width: 100%;
-    height: auto;
     border: 3px solid var(--light-blue);
     border-radius: 8px;
     color:var(--dark-blue);
