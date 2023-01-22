@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'Roboto-Regular';
-    src: url(../../Fonts/Roboto/Roboto-Regular.ttf) format('truetype');
+    src: url(../Fonts/Roboto/Roboto-Regular.ttf) format('truetype');
     font-weight: normal;
 }
 @font-face {
     font-family: 'Roboto-Bold';
-    src: url(../../Fonts/Roboto/Roboto-Bold.ttf) format('truetype');
+    src: url(../Fonts/Roboto/Roboto-Bold.ttf) format('truetype');
     font-weight: bold;
 }
 @font-face {
     font-family: 'Roboto-LightItalic';
-    src: url(../../Fonts/Roboto/Roboto-LightItalic.ttf) format('truetype');
+    src: url(../Fonts/Roboto/Roboto-LightItalic.ttf) format('truetype');
     font-weight: lighter;
 }
 *{
@@ -33,13 +33,26 @@ body header{
     align-items: center;
     width: 75%;
     height: 4rem;
+    padding-top: 20px;
 }
+
+.header-logo {
+    font-size: 24px;
+    font-family: 'Roboto-Bold', sans-serif;
+    font-weight: bold;
+}
+
 body header a, 
 body header nav a{
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
 }
+
+body header nav a:hover {
+    text-decoration: underline;
+}
+
 body header nav a{
     margin-right: 1.5rem;
 }
