@@ -1,24 +1,41 @@
 @import url(./styles.css);
 
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 main {
+    /* width: 100%; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 2rem;
+    margin: 2rem;
+    /* margin-bottom: 2rem; */
 }
+
 .header {
+    justify-self: flex-start;
     background-color: var(--dark-blue);
     width: 100%;
     padding-left: 12.5%;
     padding-right: 12.5%;
     padding-bottom: 16px;
+    margin: 0;
 }
+
+.header-nav {
+    display: initial;
+}
+
 .donation-text {
     text-align: center;
     color: var(--dark-blue);
     font-family: 'Roboto-Regular', sans-serif;
     font-size: 20px;
-    /* margin: 10px 0 0 10px; */
     white-space: nowrap;
     overflow: hidden;
     width: 14em;
@@ -64,6 +81,11 @@ form > p {
     border-radius: 4px;
     font-size: 12px;
 }
+
+.payment-type-container label:hover {
+    cursor: pointer;
+}
+
 .payment-type-container input {
     display: none;
 }
@@ -71,6 +93,7 @@ form > p {
     background-color: var(--light-blue);
     color: var(--white);
 }
+
 .payment-amount-container {
     display: grid;
     grid-template-areas:
@@ -94,9 +117,19 @@ form > p {
 .payment-amount-container input {
     display: none;
 }
+
+.payment-amount-container div:hover {
+    cursor: pointer;
+}
+
 .payment-amount-container label {
     font-size: 14px;
 }
+
+.payment-amount-container label:hover, .payment-amount-container div:hover  {
+    cursor: pointer;
+}
+
 #user-amount {
     grid-area: g;
     width: 100%;
