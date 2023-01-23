@@ -76,7 +76,6 @@ body main figure{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* margin: 10px; */
 }
 body main{
     display: flex;
@@ -206,7 +205,6 @@ footer{
         align-items: center;
         background-color: #6d747d;
         width: inherit;
-        /* height: 200px; */
         border-radius: 0.3rem;
         margin-top: 2rem;
         padding: 1rem;
