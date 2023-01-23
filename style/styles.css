@@ -148,9 +148,7 @@ body {
     align-items: center;
     padding: 4px;
     margin-bottom: 30px;
-    /* width: 200px; */
-    /* height: 200px; */
-    /* padding-bottom: 30px; */
+
 }  
 .info-img {
     width: 200px;
@@ -284,10 +282,6 @@ a {
         font-size: 30px;
     }
 
-    /* .secondary-action-text {
-        width: 100%;
-        padding: 0;
-    } */
 }
 
 @media screen and (max-width: 493px) {
@@ -352,9 +346,3 @@ a {
         height: 200px;
     }
 }
-
-/* @media screen and (max-width: 1340px) {
-    .information, .inner-container {
-        width: 70%;
-    }
-} */
