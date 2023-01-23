@@ -17,6 +17,10 @@ main {
     /* margin-bottom: 2rem; */
 }
 
+header {
+    position: relative;
+}
+
 .header {
     justify-self: flex-start;
     background-color: var(--dark-blue);

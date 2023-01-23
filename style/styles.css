@@ -30,8 +30,17 @@ body {
     width: 100%;
 }
 
+header {
+    background-color: var(--dark-blue);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
 .hero {
     padding-bottom: 80px;
+    margin-top: 40px;
 }
 
 
@@ -42,8 +51,8 @@ body {
 
 .header {
     display: flex;
-    padding-top: 20px;
-    width: 75%;
+    padding: 8px 12.5% 8px 12.5%;
+    width: 100%;
     margin: auto;
     justify-content: space-between;
     align-items: center;
@@ -298,6 +307,10 @@ a {
     .header-nav span {
         flex-basis: 100%;
         margin-bottom: 5px;
+    }
+
+    .hero {
+        margin-top: 60px;
     }
 
     .quote {
