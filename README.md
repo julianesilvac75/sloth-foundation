@@ -1,3 +1,3 @@
 # CSS-Website
 
-https://srjam89.github.io/CSS-Website/
+https://julianesilvac75.github.io/sloth-foundation/
